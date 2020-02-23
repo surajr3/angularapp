@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: surajr3/angular-app-kubernetes
+  repository: surajr3/angularapp
   tag: 
   pullPolicy: Always
 
