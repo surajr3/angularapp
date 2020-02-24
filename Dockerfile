@@ -1,5 +1,6 @@
 # stage 1
 FROM node:latest as node
+MAINTAINER suraj
 WORKDIR /app
 COPY . .
 RUN npm install
