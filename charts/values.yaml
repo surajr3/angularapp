@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: surajr3/angularapp
+  repository: vault.azurecr.io/surajr3/angularapp
   tag: 
   pullPolicy: Always
 
