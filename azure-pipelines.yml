@@ -36,8 +36,7 @@ stages:
         dockerfile: $(dockerfilePath) 
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
-          $(tag)
-        
+          $(tag)    
   - job: Bash
     displayName: Bashtest
     steps:
