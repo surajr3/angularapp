@@ -22,6 +22,7 @@ stages:
               repository: 'angular_app_test'
               command: 'buildAndPush'
               Dockerfile: '**/Dockerfile'
+              
       - job: job2
         displayName: 'Bashtest'
         steps:
