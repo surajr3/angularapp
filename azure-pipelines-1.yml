@@ -11,7 +11,7 @@ stages:
   - stage: stage1
     displayName: 'Stage1'
     jobs:
-      - job: Dockerbuild
+      - job: job1
         displayName: 'Dockerbuild'
         pool:
           vmImage: $(vmImage)
