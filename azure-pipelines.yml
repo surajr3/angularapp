@@ -38,7 +38,7 @@ stages:
         tags: |
           $(tag)    
   - job: Bash
-    displayName: Bashtest
+    displayName: BashTest
     steps:
       - task: Bash@3
         inputs:
